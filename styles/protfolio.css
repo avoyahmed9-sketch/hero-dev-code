@@ -60,3 +60,8 @@ nav{
     border-radius: 5px;
 
 }
+
+#banner{
+    border: 2px solid black;
+    margin: 46px 38px 0px 230px;
+}
