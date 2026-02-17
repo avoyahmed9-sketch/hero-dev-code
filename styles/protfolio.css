@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Shared Styles */
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+.color-orange{
+    color: #FD6E0A;
+}
+/* Main styles  */
+
+header{
+    background-color: #FFF8F3;
+    padding-top: 50px;
+}
+
+nav{
+    width: 71%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.logo h2{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+
+
+.header-menu{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    align-items: center;
+
+}
+
+.header-menu a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #474747;
+}
+
+.header-menu button{
+
+    padding: 18px 35px;
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+
+}
