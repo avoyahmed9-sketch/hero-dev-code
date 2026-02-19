@@ -131,3 +131,48 @@ nav{
     /* vertical-align: middle; it is used on images . When we use image browser take some margin bottom auto .So by using these browser dont take margin auto from the bottom . */
 
 }
+
+#about{
+    padding-top: 131px;
+}
+
+#about .about-section{
+    width: 1140px;
+    margin: 0 auto; 
+    /* First 0 dewa hoise karon upore padding dewa hoise ar porer ta left and right theke jehetu equally divide hobe tai auto diye disi kono value na diye  */
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 157px;
+}
+
+#about .section-heading{
+    max-width: 827px;
+    text-align: center;
+}
+
+#about .section-heading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+#about .section-heading p{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+#about .about-section .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+#about .about-section .infocard p{
+    font-size: 20px;
+    color: #757575;
+
+}
+
+#about .about-section .infocard h4{
+    font-size: 20px;
+    font-weight: bold;
+}
