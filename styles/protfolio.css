@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 /* Shared Styles */
@@ -294,3 +295,78 @@ nav{
     margin-bottom: 30px;
     margin-right: 47px;
 }
+
+.cv-button{
+    padding: 19px 17px;
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.CV-Download{
+    text-align: center;
+}
+
+footer{
+    margin-top: 113px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+    
+}
+
+.footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+
+.footer-container .social{
+    max-width: 562px;
+}
+
+.footer-container h2{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+
+}
+
+.footer-container p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+
+}
+
+.footer-icons a{
+    margin-right: 24px;
+}
+
+.footer-container form input[type="text"] , .footer-container form textarea{
+    width: 461px;
+    padding : 18px 31px; 
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+}
+
+.Submit-button{
+    padding: 19px 40px;
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
